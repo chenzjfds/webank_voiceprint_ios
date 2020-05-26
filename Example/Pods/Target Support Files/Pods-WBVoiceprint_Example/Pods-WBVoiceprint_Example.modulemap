@@ -1,0 +1,6 @@
+framework module Pods_WBVoiceprint_Example {
+  umbrella header "Pods-WBVoiceprint_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

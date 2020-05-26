@@ -1,0 +1,16 @@
+PODS:
+  - WBVoiceprint (0.1.0)
+
+DEPENDENCIES:
+  - WBVoiceprint (from `../`)
+
+EXTERNAL SOURCES:
+  WBVoiceprint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBVoiceprint: 3d48ee3a32c0c09ad28bcd8b412515727951c640
+
+PODFILE CHECKSUM: b44e601cbead13973544e966b6d97c7402834d41
+
+COCOAPODS: 1.8.4

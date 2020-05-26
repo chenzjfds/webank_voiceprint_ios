@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC402D5BB6CEA6A341F7CB1A1683FF5 /* arm64.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = 80D171B412C3364FCEA953EC69ED2280 /* arm64.swiftdoc */; };
+		10C49816EC1F9CD1194641F63FD1E207 /* arm64.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = A168C4C07AD119909CB0B5A7299DB78B /* arm64.swiftmodule */; };
+		1FC230DB5224B69D50C5F3AA206FDD2C /* Pods-WBVoiceprint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A579CE2A8179CBEDB9CEF60E9139E81 /* Pods-WBVoiceprint_Example-dummy.m */; };
+		2055C7E4D4726CBE02BCEA34A31BA556 /* armv7-apple-ios.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = D973715C761A3424CD6266CF4916ADA5 /* armv7-apple-ios.swiftdoc */; };
+		20A422D83E7BDFCC9CCE4265374ACF77 /* armv7.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = 9060F0A00B3871519A85B75E35A8F199 /* armv7.swiftdoc */; };
+		220E977E08A9AA3E9AFE494960CA5DC2 /* WBVoiceprint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A8FD8C3E5FEF8C3D307906E25F4719 /* WBVoiceprint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295561DC5F3F2BA166FD266AD33E5AE1 /* Voiceprintsdk-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = DC01F29646B8FF53A5BB89429BB417F1 /* Voiceprintsdk-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34517B9655E3B01C32108EED8074D561 /* armv7-apple-ios.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = 165F687D08BF419A71017FB1FBF5CB63 /* armv7-apple-ios.swiftmodule */; };
+		410DA6904A1F6813D03275309A838D5E /* Pods-WBVoiceprint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B42ABE6F11D2C1AC42824ABA3144F10 /* Pods-WBVoiceprint_Tests-dummy.m */; };
+		46439DE30F6B58C5DE85E8D1E64AB13B /* arm64-apple-ios.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = AEB27535ED3E9D38B6FD243CB7B7F33D /* arm64-apple-ios.swiftdoc */; };
+		4EE4E7B7A3F0B93FCEBD22D4C3DA855B /* armv7.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE593150D0E8CA3246B772E661429C /* armv7.swiftsourceinfo */; };
+		68DAEC2B072021C8C1ED27211F0BBD1D /* armv7.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = 51D477B753833E82F1CF5C118CC79136 /* armv7.swiftmodule */; };
+		7EB29AC66762101B79701325E9E5B913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		952E10D5D4743EB92A649297B18494D2 /* arm.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AD554E2FC78B45E1310F2A3A45DD1 /* arm.swiftsourceinfo */; };
+		9D935F102CD78B3B07926007B008AAEE /* WBVoiceprint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B20904E7CF34E94972E0BCB7CC60EA1 /* WBVoiceprint-dummy.m */; };
+		B52F9D08598779A64C498E147BB2F4DB /* Voiceprintsdk in Sources */ = {isa = PBXBuildFile; fileRef = 7A4532DC19ED91FCF170DD697D7AE24B /* Voiceprintsdk */; };
+		B5CD6FC4492DD18138681D083C0F7C1D /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = CDFA395B6B5551709E77E5E666EC5910 /* module.modulemap */; };
+		B7E68E71A7A4B2E10759E3D5E7913727 /* arm64-apple-ios.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = 7D6208A8609AF8CFE05246DEF02EA04E /* arm64-apple-ios.swiftsourceinfo */; };
+		BDFF8BDC1FECC8842F8E1EA9B6719251 /* arm64.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = 3E90C9D0CA56F28F654FC0868A29E762 /* arm64.swiftsourceinfo */; };
+		C8FA2EF51071B2F07786835F706F7CE3 /* Pods-WBVoiceprint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 637C359E9E4984C779F0CAF6063904BB /* Pods-WBVoiceprint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D325410232A715C7B43E84DC2CC8297B /* Voiceprintsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = B09B1FA43C780DA66E5ED0D92CBD2218 /* Voiceprintsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DE045B76A21CE2AD47932E0A0FE38C /* armv7-apple-ios.swiftsourceinfo in Sources */ = {isa = PBXBuildFile; fileRef = D1360B652BA96F3D06896A8710F0EC27 /* armv7-apple-ios.swiftsourceinfo */; };
+		E448AEC3DB35944FBD7B999D2D513FE6 /* arm.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = B869BA37751EBF83FBB8D7A6CE97B4D6 /* arm.swiftmodule */; };
+		E715F38B4544DEA0D87AC55C1B369D6D /* arm.swiftdoc in Sources */ = {isa = PBXBuildFile; fileRef = E813C332FF8DD9376A3E8382D5963EF5 /* arm.swiftdoc */; };
+		EA62B3EF48B879602EADE4DCE6B34D86 /* arm64-apple-ios.swiftmodule in Sources */ = {isa = PBXBuildFile; fileRef = 117AF4B97AA60ABBBF77DCB762E2093D /* arm64-apple-ios.swiftmodule */; };
+		F2C0CAF8532C99CB64BE19682416FF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F69F4ABD5CAB5E811735BFEFFF4325CF /* Pods-WBVoiceprint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 499A8824600F9ABDE92B54F5ACE7BC71 /* Pods-WBVoiceprint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE50078B4264DD5FD7DF4D6965D91DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0419DEA54599EC6F762AFD48A2703FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BAD399DEAEA3610C1CECF37892A4E4;
+			remoteInfo = WBVoiceprint;
+		};
+		F96C63FD2FBCA0A77DFF6AA47F1835E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E54E87FCE6A18D673A499381C1A096;
+			remoteInfo = "Pods-WBVoiceprint_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B20904E7CF34E94972E0BCB7CC60EA1 /* WBVoiceprint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBVoiceprint-dummy.m"; sourceTree = "<group>"; };
+		117AF4B97AA60ABBBF77DCB762E2093D /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		136492957AD1332C37E91904919180EA /* Pods-WBVoiceprint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBVoiceprint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		165F687D08BF419A71017FB1FBF5CB63 /* armv7-apple-ios.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; path = "armv7-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		1B6ECC64ED1B8E261EBFE03B69ED06AA /* Pods-WBVoiceprint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBVoiceprint_Example.modulemap"; sourceTree = "<group>"; };
+		240A196063447A9C6E0591C86AB867AC /* Pods-WBVoiceprint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBVoiceprint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B42ABE6F11D2C1AC42824ABA3144F10 /* Pods-WBVoiceprint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBVoiceprint_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3586E50F08923BDE775F9CFD86E50DCF /* WBVoiceprint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBVoiceprint.modulemap; sourceTree = "<group>"; };
+		360545D0D590C5A2E37DD840DB8D1A25 /* Pods-WBVoiceprint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBVoiceprint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A579CE2A8179CBEDB9CEF60E9139E81 /* Pods-WBVoiceprint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBVoiceprint_Example-dummy.m"; sourceTree = "<group>"; };
+		3E90C9D0CA56F28F654FC0868A29E762 /* arm64.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = arm64.swiftsourceinfo; sourceTree = "<group>"; };
+		3F8386AAC86C691391C2A70548BB7607 /* Voiceprintsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Voiceprintsdk.framework; path = WBVoiceprint/Classes/Voiceprintsdk.framework; sourceTree = "<group>"; };
+		499A8824600F9ABDE92B54F5ACE7BC71 /* Pods-WBVoiceprint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBVoiceprint_Example-umbrella.h"; sourceTree = "<group>"; };
+		4DD6F53FCB2494D4417CF59F587163B4 /* Pods-WBVoiceprint_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBVoiceprint_Example-Info.plist"; sourceTree = "<group>"; };
+		4E95C621D36C288467B8AA0E88C969E4 /* Pods-WBVoiceprint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBVoiceprint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F0AD554E2FC78B45E1310F2A3A45DD1 /* arm.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = arm.swiftsourceinfo; sourceTree = "<group>"; };
+		51D477B753833E82F1CF5C118CC79136 /* armv7.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; path = armv7.swiftmodule; sourceTree = "<group>"; };
+		5214A5883F7289705D5A83D41DBCC8CC /* Pods-WBVoiceprint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBVoiceprint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6124166DBFA0906D31C854CEA118E0A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		637C359E9E4984C779F0CAF6063904BB /* Pods-WBVoiceprint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBVoiceprint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6A384B30EB5CCE4C4CF89AD34E7D1457 /* Pods-WBVoiceprint_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBVoiceprint_Tests-Info.plist"; sourceTree = "<group>"; };
+		6FEE593150D0E8CA3246B772E661429C /* armv7.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = armv7.swiftsourceinfo; sourceTree = "<group>"; };
+		791E1E85110F544B3255D04E30A546F8 /* WBVoiceprint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBVoiceprint.xcconfig; sourceTree = "<group>"; };
+		7A4532DC19ED91FCF170DD697D7AE24B /* Voiceprintsdk */ = {isa = PBXFileReference; includeInIndex = 1; name = Voiceprintsdk; path = WBVoiceprint/Classes/Voiceprintsdk.framework/Voiceprintsdk; sourceTree = "<group>"; };
+		7D6208A8609AF8CFE05246DEF02EA04E /* arm64-apple-ios.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = "arm64-apple-ios.swiftsourceinfo"; sourceTree = "<group>"; };
+		80D171B412C3364FCEA953EC69ED2280 /* arm64.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; path = arm64.swiftdoc; sourceTree = "<group>"; };
+		8DF8603DF63FF4E03C1CFBF726EA373F /* Pods_WBVoiceprint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBVoiceprint_Example.framework; path = "Pods-WBVoiceprint_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF9D90E46D80BD75C79662E954D4E01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9060F0A00B3871519A85B75E35A8F199 /* armv7.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; path = armv7.swiftdoc; sourceTree = "<group>"; };
+		98C396B95B149989F19F724DFEB3C87C /* WBVoiceprint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBVoiceprint.framework; path = WBVoiceprint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A168C4C07AD119909CB0B5A7299DB78B /* arm64.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		AA6F26AB054B31446E36EC38E27E4086 /* Pods-WBVoiceprint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBVoiceprint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AEB27535ED3E9D38B6FD243CB7B7F33D /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		B09B1FA43C780DA66E5ED0D92CBD2218 /* Voiceprintsdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Voiceprintsdk.h; sourceTree = "<group>"; };
+		B75961C9CB897279884D11F6B4AA6E04 /* Pods_WBVoiceprint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBVoiceprint_Tests.framework; path = "Pods-WBVoiceprint_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B785D7C098A5967B1B567A93F86D865C /* WBVoiceprint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBVoiceprint-prefix.pch"; sourceTree = "<group>"; };
+		B869BA37751EBF83FBB8D7A6CE97B4D6 /* arm.swiftmodule */ = {isa = PBXFileReference; includeInIndex = 1; path = arm.swiftmodule; sourceTree = "<group>"; };
+		BD61E7292D7304B1416F6B77881C31F2 /* Pods-WBVoiceprint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBVoiceprint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDFA395B6B5551709E77E5E666EC5910 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		D1360B652BA96F3D06896A8710F0EC27 /* armv7-apple-ios.swiftsourceinfo */ = {isa = PBXFileReference; includeInIndex = 1; path = "armv7-apple-ios.swiftsourceinfo"; sourceTree = "<group>"; };
+		D72EC15BC308C906298B05D56DEE5BCF /* Pods-WBVoiceprint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBVoiceprint_Tests.modulemap"; sourceTree = "<group>"; };
+		D8A8FD8C3E5FEF8C3D307906E25F4719 /* WBVoiceprint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBVoiceprint-umbrella.h"; sourceTree = "<group>"; };
+		D973715C761A3424CD6266CF4916ADA5 /* armv7-apple-ios.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; path = "armv7-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		DC01F29646B8FF53A5BB89429BB417F1 /* Voiceprintsdk-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Voiceprintsdk-Swift.h"; sourceTree = "<group>"; };
+		E0F42B8309C4AD8CAA7BE00471711228 /* WBVoiceprint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBVoiceprint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7887CC815AEA3BA2A44EA0FDC059E33 /* WBVoiceprint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBVoiceprint-Info.plist"; sourceTree = "<group>"; };
+		E813C332FF8DD9376A3E8382D5963EF5 /* arm.swiftdoc */ = {isa = PBXFileReference; includeInIndex = 1; path = arm.swiftdoc; sourceTree = "<group>"; };
+		E895DA5DDF2F5E1EBB6FCD7F46F0D316 /* Pods-WBVoiceprint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBVoiceprint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2E0D7421C0C7539E2B98A630D853D9 /* Pods-WBVoiceprint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBVoiceprint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D638789726461E3B31B4F95D35EDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C0CAF8532C99CB64BE19682416FF2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EBF99087BB197B456AC2F2D042A40FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB29AC66762101B79701325E9E5B913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6088A5B4324A505408FE37313A462AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE50078B4264DD5FD7DF4D6965D91DC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B87EB3A27D6513E74E1DE6D583EAE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD169DEBB19A6715A05FC7FCE1618962 /* Pods-WBVoiceprint_Example */,
+				A141DFF7F2A3C2E0ACD5FE9BEFEC85A5 /* Pods-WBVoiceprint_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38AA927AD2E3232D87022AF496BB044D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3586E50F08923BDE775F9CFD86E50DCF /* WBVoiceprint.modulemap */,
+				791E1E85110F544B3255D04E30A546F8 /* WBVoiceprint.xcconfig */,
+				0B20904E7CF34E94972E0BCB7CC60EA1 /* WBVoiceprint-dummy.m */,
+				E7887CC815AEA3BA2A44EA0FDC059E33 /* WBVoiceprint-Info.plist */,
+				B785D7C098A5967B1B567A93F86D865C /* WBVoiceprint-prefix.pch */,
+				D8A8FD8C3E5FEF8C3D307906E25F4719 /* WBVoiceprint-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBVoiceprint";
+			sourceTree = "<group>";
+		};
+		564683C81FDEF1FA22EF4A20EC195669 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6124166DBFA0906D31C854CEA118E0A3 /* LICENSE */,
+				8EF9D90E46D80BD75C79662E954D4E01 /* README.md */,
+				E0F42B8309C4AD8CAA7BE00471711228 /* WBVoiceprint.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		689E3B5CBBBD53690AD0DADA2FE926BF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA395B6B5551709E77E5E666EC5910 /* module.modulemap */,
+				E3A1552ABA8BF313132EA557CBF53776 /* Voiceprintsdk.swiftmodule */,
+			);
+			name = Modules;
+			path = WBVoiceprint/Classes/Voiceprintsdk.framework/Modules;
+			sourceTree = "<group>";
+		};
+		71EC5B441B4D96EC6517B3DE66DFC43C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F10E24D6B50E96A20CD28DF981A33D84 /* WBVoiceprint */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A141DFF7F2A3C2E0ACD5FE9BEFEC85A5 /* Pods-WBVoiceprint_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D72EC15BC308C906298B05D56DEE5BCF /* Pods-WBVoiceprint_Tests.modulemap */,
+				BD61E7292D7304B1416F6B77881C31F2 /* Pods-WBVoiceprint_Tests-acknowledgements.markdown */,
+				5214A5883F7289705D5A83D41DBCC8CC /* Pods-WBVoiceprint_Tests-acknowledgements.plist */,
+				2B42ABE6F11D2C1AC42824ABA3144F10 /* Pods-WBVoiceprint_Tests-dummy.m */,
+				6A384B30EB5CCE4C4CF89AD34E7D1457 /* Pods-WBVoiceprint_Tests-Info.plist */,
+				637C359E9E4984C779F0CAF6063904BB /* Pods-WBVoiceprint_Tests-umbrella.h */,
+				E895DA5DDF2F5E1EBB6FCD7F46F0D316 /* Pods-WBVoiceprint_Tests.debug.xcconfig */,
+				EC2E0D7421C0C7539E2B98A630D853D9 /* Pods-WBVoiceprint_Tests.release.xcconfig */,
+			);
+			name = "Pods-WBVoiceprint_Tests";
+			path = "Target Support Files/Pods-WBVoiceprint_Tests";
+			sourceTree = "<group>";
+		};
+		BD169DEBB19A6715A05FC7FCE1618962 /* Pods-WBVoiceprint_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1B6ECC64ED1B8E261EBFE03B69ED06AA /* Pods-WBVoiceprint_Example.modulemap */,
+				240A196063447A9C6E0591C86AB867AC /* Pods-WBVoiceprint_Example-acknowledgements.markdown */,
+				136492957AD1332C37E91904919180EA /* Pods-WBVoiceprint_Example-acknowledgements.plist */,
+				3A579CE2A8179CBEDB9CEF60E9139E81 /* Pods-WBVoiceprint_Example-dummy.m */,
+				4E95C621D36C288467B8AA0E88C969E4 /* Pods-WBVoiceprint_Example-frameworks.sh */,
+				4DD6F53FCB2494D4417CF59F587163B4 /* Pods-WBVoiceprint_Example-Info.plist */,
+				499A8824600F9ABDE92B54F5ACE7BC71 /* Pods-WBVoiceprint_Example-umbrella.h */,
+				360545D0D590C5A2E37DD840DB8D1A25 /* Pods-WBVoiceprint_Example.debug.xcconfig */,
+				AA6F26AB054B31446E36EC38E27E4086 /* Pods-WBVoiceprint_Example.release.xcconfig */,
+			);
+			name = "Pods-WBVoiceprint_Example";
+			path = "Target Support Files/Pods-WBVoiceprint_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C58D540354A6731F34A55FE1ED751BCA /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AD554E2FC78B45E1310F2A3A45DD1 /* arm.swiftsourceinfo */,
+				3E90C9D0CA56F28F654FC0868A29E762 /* arm64.swiftsourceinfo */,
+				7D6208A8609AF8CFE05246DEF02EA04E /* arm64-apple-ios.swiftsourceinfo */,
+				6FEE593150D0E8CA3246B772E661429C /* armv7.swiftsourceinfo */,
+				D1360B652BA96F3D06896A8710F0EC27 /* armv7-apple-ios.swiftsourceinfo */,
+			);
+			name = Project;
+			path = Project;
+			sourceTree = "<group>";
+		};
+		CC3A4044B2DC0B16FCF748DDA8FD7517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8386AAC86C691391C2A70548BB7607 /* Voiceprintsdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				71EC5B441B4D96EC6517B3DE66DFC43C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D1F0B1197A5A785DDC96713529D0513E /* Products */,
+				04B87EB3A27D6513E74E1DE6D583EAE6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F0B1197A5A785DDC96713529D0513E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF8603DF63FF4E03C1CFBF726EA373F /* Pods_WBVoiceprint_Example.framework */,
+				B75961C9CB897279884D11F6B4AA6E04 /* Pods_WBVoiceprint_Tests.framework */,
+				98C396B95B149989F19F724DFEB3C87C /* WBVoiceprint.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3A1552ABA8BF313132EA557CBF53776 /* Voiceprintsdk.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				E813C332FF8DD9376A3E8382D5963EF5 /* arm.swiftdoc */,
+				B869BA37751EBF83FBB8D7A6CE97B4D6 /* arm.swiftmodule */,
+				80D171B412C3364FCEA953EC69ED2280 /* arm64.swiftdoc */,
+				A168C4C07AD119909CB0B5A7299DB78B /* arm64.swiftmodule */,
+				AEB27535ED3E9D38B6FD243CB7B7F33D /* arm64-apple-ios.swiftdoc */,
+				117AF4B97AA60ABBBF77DCB762E2093D /* arm64-apple-ios.swiftmodule */,
+				9060F0A00B3871519A85B75E35A8F199 /* armv7.swiftdoc */,
+				51D477B753833E82F1CF5C118CC79136 /* armv7.swiftmodule */,
+				D973715C761A3424CD6266CF4916ADA5 /* armv7-apple-ios.swiftdoc */,
+				165F687D08BF419A71017FB1FBF5CB63 /* armv7-apple-ios.swiftmodule */,
+				C58D540354A6731F34A55FE1ED751BCA /* Project */,
+			);
+			name = Voiceprintsdk.swiftmodule;
+			path = Voiceprintsdk.swiftmodule;
+			sourceTree = "<group>";
+		};
+		EC172DD2DAE50EB235CEA8F279E7142A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B09B1FA43C780DA66E5ED0D92CBD2218 /* Voiceprintsdk.h */,
+				DC01F29646B8FF53A5BB89429BB417F1 /* Voiceprintsdk-Swift.h */,
+			);
+			name = Headers;
+			path = WBVoiceprint/Classes/Voiceprintsdk.framework/Headers;
+			sourceTree = "<group>";
+		};
+		F10E24D6B50E96A20CD28DF981A33D84 /* WBVoiceprint */ = {
+			isa = PBXGroup;
+			children = (
+				7A4532DC19ED91FCF170DD697D7AE24B /* Voiceprintsdk */,
+				CC3A4044B2DC0B16FCF748DDA8FD7517 /* Frameworks */,
+				EC172DD2DAE50EB235CEA8F279E7142A /* Headers */,
+				689E3B5CBBBD53690AD0DADA2FE926BF /* Modules */,
+				564683C81FDEF1FA22EF4A20EC195669 /* Pod */,
+				38AA927AD2E3232D87022AF496BB044D /* Support Files */,
+			);
+			name = WBVoiceprint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CA902071FB5FE98D5402A86B272CDCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F4ABD5CAB5E811735BFEFFF4325CF /* Pods-WBVoiceprint_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76AEF3A4DD77621587E9255BD6FD74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FA2EF51071B2F07786835F706F7CE3 /* Pods-WBVoiceprint_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AC89224FEF9ACA304D427F4F5EF47C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295561DC5F3F2BA166FD266AD33E5AE1 /* Voiceprintsdk-Swift.h in Headers */,
+				D325410232A715C7B43E84DC2CC8297B /* Voiceprintsdk.h in Headers */,
+				220E977E08A9AA3E9AFE494960CA5DC2 /* WBVoiceprint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21E54E87FCE6A18D673A499381C1A096 /* Pods-WBVoiceprint_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075A0E19DC61E0BEC3E66E9F95A807BD /* Build configuration list for PBXNativeTarget "Pods-WBVoiceprint_Example" */;
+			buildPhases = (
+				3CA902071FB5FE98D5402A86B272CDCC /* Headers */,
+				28291854CAF2125C944005695F4C26E3 /* Sources */,
+				4EBF99087BB197B456AC2F2D042A40FB /* Frameworks */,
+				B2A8B60340C1104A5A5DE9BD8AEEECE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2AB3920251281B0F6FE37CBD13429E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WBVoiceprint_Example";
+			productName = "Pods-WBVoiceprint_Example";
+			productReference = 8DF8603DF63FF4E03C1CFBF726EA373F /* Pods_WBVoiceprint_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3799C96AFDCB172E1903E37197926A8A /* Pods-WBVoiceprint_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905C7C8AF40FE8C2B5B3EEE42E367A59 /* Build configuration list for PBXNativeTarget "Pods-WBVoiceprint_Tests" */;
+			buildPhases = (
+				6D76AEF3A4DD77621587E9255BD6FD74 /* Headers */,
+				78D9C9AB88AC2C96A10F739825369F88 /* Sources */,
+				6088A5B4324A505408FE37313A462AC1 /* Frameworks */,
+				0926D4E23A853E4833C7BC0C25EE889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CFB00CC9BC5B6FDF2EC59396D071716 /* PBXTargetDependency */,
+			);
+			name = "Pods-WBVoiceprint_Tests";
+			productName = "Pods-WBVoiceprint_Tests";
+			productReference = B75961C9CB897279884D11F6B4AA6E04 /* Pods_WBVoiceprint_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BAD399DEAEA3610C1CECF37892A4E4 /* WBVoiceprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41C5797C7477EC120E93EFF3986C8DD /* Build configuration list for PBXNativeTarget "WBVoiceprint" */;
+			buildPhases = (
+				E4AC89224FEF9ACA304D427F4F5EF47C /* Headers */,
+				CD731C9BE8570C2EC8E512E96D123BE0 /* Sources */,
+				10D638789726461E3B31B4F95D35EDCB /* Frameworks */,
+				22AC9077C13E327D1CB5CCE2C052BBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBVoiceprint;
+			productName = WBVoiceprint;
+			productReference = 98C396B95B149989F19F724DFEB3C87C /* WBVoiceprint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D1F0B1197A5A785DDC96713529D0513E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21E54E87FCE6A18D673A499381C1A096 /* Pods-WBVoiceprint_Example */,
+				3799C96AFDCB172E1903E37197926A8A /* Pods-WBVoiceprint_Tests */,
+				F1BAD399DEAEA3610C1CECF37892A4E4 /* WBVoiceprint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0926D4E23A853E4833C7BC0C25EE889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AC9077C13E327D1CB5CCE2C052BBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A8B60340C1104A5A5DE9BD8AEEECE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28291854CAF2125C944005695F4C26E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC230DB5224B69D50C5F3AA206FDD2C /* Pods-WBVoiceprint_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9C9AB88AC2C96A10F739825369F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410DA6904A1F6813D03275309A838D5E /* Pods-WBVoiceprint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD731C9BE8570C2EC8E512E96D123BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E715F38B4544DEA0D87AC55C1B369D6D /* arm.swiftdoc in Sources */,
+				E448AEC3DB35944FBD7B999D2D513FE6 /* arm.swiftmodule in Sources */,
+				952E10D5D4743EB92A649297B18494D2 /* arm.swiftsourceinfo in Sources */,
+				46439DE30F6B58C5DE85E8D1E64AB13B /* arm64-apple-ios.swiftdoc in Sources */,
+				EA62B3EF48B879602EADE4DCE6B34D86 /* arm64-apple-ios.swiftmodule in Sources */,
+				B7E68E71A7A4B2E10759E3D5E7913727 /* arm64-apple-ios.swiftsourceinfo in Sources */,
+				0BC402D5BB6CEA6A341F7CB1A1683FF5 /* arm64.swiftdoc in Sources */,
+				10C49816EC1F9CD1194641F63FD1E207 /* arm64.swiftmodule in Sources */,
+				BDFF8BDC1FECC8842F8E1EA9B6719251 /* arm64.swiftsourceinfo in Sources */,
+				2055C7E4D4726CBE02BCEA34A31BA556 /* armv7-apple-ios.swiftdoc in Sources */,
+				34517B9655E3B01C32108EED8074D561 /* armv7-apple-ios.swiftmodule in Sources */,
+				E3DE045B76A21CE2AD47932E0A0FE38C /* armv7-apple-ios.swiftsourceinfo in Sources */,
+				20A422D83E7BDFCC9CCE4265374ACF77 /* armv7.swiftdoc in Sources */,
+				68DAEC2B072021C8C1ED27211F0BBD1D /* armv7.swiftmodule in Sources */,
+				4EE4E7B7A3F0B93FCEBD22D4C3DA855B /* armv7.swiftsourceinfo in Sources */,
+				B5CD6FC4492DD18138681D083C0F7C1D /* module.modulemap in Sources */,
+				B52F9D08598779A64C498E147BB2F4DB /* Voiceprintsdk in Sources */,
+				9D935F102CD78B3B07926007B008AAEE /* WBVoiceprint-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CFB00CC9BC5B6FDF2EC59396D071716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WBVoiceprint_Example";
+			target = 21E54E87FCE6A18D673A499381C1A096 /* Pods-WBVoiceprint_Example */;
+			targetProxy = F96C63FD2FBCA0A77DFF6AA47F1835E5 /* PBXContainerItemProxy */;
+		};
+		A2AB3920251281B0F6FE37CBD13429E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBVoiceprint;
+			target = F1BAD399DEAEA3610C1CECF37892A4E4 /* WBVoiceprint */;
+			targetProxy = B0419DEA54599EC6F762AFD48A2703FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16D6F090DAA3C25ECF1E9A43EB1CBAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F26AB054B31446E36EC38E27E4086 /* Pods-WBVoiceprint_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBVoiceprint_Example/Pods-WBVoiceprint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBVoiceprint_Example/Pods-WBVoiceprint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21DF77C2B70E5AF6A5DCAB08B5B64DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791E1E85110F544B3255D04E30A546F8 /* WBVoiceprint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBVoiceprint/WBVoiceprint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBVoiceprint/WBVoiceprint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBVoiceprint/WBVoiceprint.modulemap";
+				PRODUCT_MODULE_NAME = WBVoiceprint;
+				PRODUCT_NAME = WBVoiceprint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		472B56B248441A90096B88980D96C908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2E0D7421C0C7539E2B98A630D853D9 /* Pods-WBVoiceprint_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBVoiceprint_Tests/Pods-WBVoiceprint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBVoiceprint_Tests/Pods-WBVoiceprint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B23547F0220569D736641C8E673ACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791E1E85110F544B3255D04E30A546F8 /* WBVoiceprint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBVoiceprint/WBVoiceprint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBVoiceprint/WBVoiceprint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBVoiceprint/WBVoiceprint.modulemap";
+				PRODUCT_MODULE_NAME = WBVoiceprint;
+				PRODUCT_NAME = WBVoiceprint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7D694D7658E16FC7624F8C0C6FA705E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E895DA5DDF2F5E1EBB6FCD7F46F0D316 /* Pods-WBVoiceprint_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBVoiceprint_Tests/Pods-WBVoiceprint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBVoiceprint_Tests/Pods-WBVoiceprint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7C08F038F22520C2B00C863C039736E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360545D0D590C5A2E37DD840DB8D1A25 /* Pods-WBVoiceprint_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBVoiceprint_Example/Pods-WBVoiceprint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBVoiceprint_Example/Pods-WBVoiceprint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075A0E19DC61E0BEC3E66E9F95A807BD /* Build configuration list for PBXNativeTarget "Pods-WBVoiceprint_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C08F038F22520C2B00C863C039736E /* Debug */,
+				16D6F090DAA3C25ECF1E9A43EB1CBAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905C7C8AF40FE8C2B5B3EEE42E367A59 /* Build configuration list for PBXNativeTarget "Pods-WBVoiceprint_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D694D7658E16FC7624F8C0C6FA705E /* Debug */,
+				472B56B248441A90096B88980D96C908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41C5797C7477EC120E93EFF3986C8DD /* Build configuration list for PBXNativeTarget "WBVoiceprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B23547F0220569D736641C8E673ACB9 /* Debug */,
+				21DF77C2B70E5AF6A5DCAB08B5B64DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

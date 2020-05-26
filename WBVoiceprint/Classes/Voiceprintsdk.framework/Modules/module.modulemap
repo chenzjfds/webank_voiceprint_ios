@@ -1,0 +1,11 @@
+framework module Voiceprintsdk {
+  umbrella header "Voiceprintsdk.h"
+
+  export *
+  module * { export * }
+}
+
+module Voiceprintsdk.Swift {
+    header "Voiceprintsdk-Swift.h"
+    requires objc
+}
