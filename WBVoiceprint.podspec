@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WBVoiceprint'
   s.version          = '0.1.0'
-  s.summary          = '声纹检测sdk'
+  s.summary          = 'ai'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  声纹检测sdk.
                        DESC
 
   s.homepage         = 'https://github.com/chenzjfds/webank_voiceprint_ios'
